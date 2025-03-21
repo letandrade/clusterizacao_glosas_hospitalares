@@ -23,7 +23,7 @@ O modelo criado irá torna-se um processo automático de priorização de glosa,
 3.0 Tecnologias Utilizadas
 
 - Python
-- Task Windows
+- Agendador de tarefas do Windows
 - Power BI
   
 4.0 Desenvolvimento 
