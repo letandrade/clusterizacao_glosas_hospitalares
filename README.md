@@ -1,6 +1,6 @@
 # Clusterização de Glosas Hospitalares
 
-1.0 Revisão da literatuta
+1.0 Visão Geral
 
 No ramo da prestação de serviços de sáude com frequência fala-se sobre a glosa hospitalar. 
 
