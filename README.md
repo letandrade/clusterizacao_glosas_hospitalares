@@ -20,8 +20,14 @@ Desenvolver um modelo de clusterização que forneça grupos de glosa semelhante
 
 O modelo criado irá torna-se um processo automático de priorização de glosa, a ideia é criar um processo que gere grupos de glosa para cada chave de hospital, convênio e tipo de glosa de uma rede hospitalar. 
 
-3.0 Desenvolvimento 
+3.0 Tecnologias Utilizadas
 
-4.0 Deploy 
+- Python
+- Task Windows
+- Power BI
+  
+4.0 Desenvolvimento 
 
-5.0 Resultados
+5.0 Deploy 
+
+6.0 Resultados
