@@ -1,7 +1,7 @@
 
 <h1 align="center">Clusterização de Glosas Hospitalares <br /> </h1>
 
-<h1 align="left">Visão Geral </h1>
+<h1 align="left" Visão Geral </h1>
 
 No ramo da prestação de serviços de sáude com frequência fala-se sobre a glosa hospitalar. 
 
