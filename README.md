@@ -1,5 +1,5 @@
 
-<h1 align="center">Clusterização de Glosas Hospitalares <br /> (Python + Task Windows + Power BI)</h1>
+<h1 align="center">Clusterização de Glosas Hospitalares <br /> </h1>
 
 1.0 Visão Geral
 
