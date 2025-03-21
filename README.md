@@ -16,6 +16,10 @@ A falta desses pagamentos .
 
 2.0 Objetivo
 
+Desenvolver um modelo de clusterização que forneça grupos de glosa semelhantes entre si por hospital, convênio e tipo de glosa. 
+
+O modelo criado irá torna-se um processo automático de priorização de glosa, a ideia é criar um processo que gere grupos de glosa para cada chave de hospital, convênio e tipo de glosa de uma rede hospitalar. 
+
 3.0 Desenvolvimento 
 
 4.0 Deploy 
