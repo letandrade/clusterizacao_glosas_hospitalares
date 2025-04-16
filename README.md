@@ -43,6 +43,40 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
   
 **4.0 Desenvolvimento**
 
+Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em anexo. 
+
+4.1 Construção da base de dados em SQL 
+
+A base de dados foi extraída de um banco de dados, esse script faz toda a seleção de variáveis e tratamento. E entrega a base no formato de entrada do algoritmo. 
+
+A query construída foi chamada através da conexão com o banco de dados Oracle constrída através da biblioteca cx_oracle.
+
+4.2 Módulo de Clusterização para Análise de Glosas Hospitalares (Oracle SQL + Python)
+
+Este módulo Python ((modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
+
+Funcionalidades principais:
+
+- Conexão Oracle: Acesso direto ao banco de dados Oracle para execução da query.
+- Consulta customizada: Extração de dados por hospital, convênio e tipo de glosa, com tratamento de nulos e cálculos de indicadores como salto de valor e índice de glosa.
+- Clusterização inteligente: Aplicação do algoritmo K-Means com escolha automática do número ótimo de clusters baseado no índice de Silhouette.
+- Escalabilidade: Limitação dinâmica do número de clusters com base na quantidade de amostras disponíveis.
+- Exploração de variáveis relevantes: Agrupamento baseado em GLOSA_ATUAL, IND_GLOSA, SALTO_VALOR, e SALTO_INDICE.
+
+Essa solução permite identificar padrões e anomalias no comportamento das glosas, sendo útil para auditoria médica, análises operacionais e estratégias de redução de perdas.
+
+4.3 
+
+Este módulo Python (modulo_clusterizacao_hospital_recente_loop.py) automatiza a aplicação de técnicas de clusterização disponibilixadas no módulo anterior. O foco É identificar padrões por hospital, convênio e tipo de glosa (Codificação ou Precificação). 
+
+Funcionalidades principais:
+
+- Leitura de dados específicos por hospital, convênio e tipo de glosa, a partir de fontes validadas.
+- Verificação de combinações válidas com base em um dataset pré-definido.
+- Execução de clusterização com KMeans, utilizando padronização e métricas como silhouette score para qualidade dos clusters.
+- Empilhamento dos resultados em um único DataFrame (base_cluster_df) para análise consolidada.
+- Exportação automatizada da base final para um arquivo CSV centralizado em um diretório compartilhado.
+
 **5.0 Deploy**
 
 **6.0 Resultados**
