@@ -84,6 +84,13 @@ Funcionalidades principais:
 
 **4.4 Agendamento do script de loop no Windows**
 
+- Criação um arquivo .bat responsável por executar o script Python de clusterização.
+
+- Organização dos arquivos necessários (módulo de clusterização, script de execução e dependências) em uma pasta dedicada dentro de um diretório de trabalho.
+
+- Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal.
+
+- Ao final de cada execução, o script exporta um arquivo .csv contendo o empilhamento dos clusters gerados, armazenado no diretório especificado no código.
 
 **4.5 Dashboard de Clusterização**
 
