@@ -1,7 +1,7 @@
 
 <h1 align="center">Clusterização de Glosas Hospitalares <br /> </h1>
 
-##**1.0 Visão geral**
+## **1.0 Visão geral**
 
 No ramo da prestação de serviços de saúde, é comum ouvir falar sobre glosa hospitalar. As glosas correspondem a valores de faturamento que não são recebidos ou são recusados pelas operadoras de saúde — clínicas, hospitais e laboratórios — geralmente devido a problemas de comunicação ou inconsistências nas informações fornecidas.
 
