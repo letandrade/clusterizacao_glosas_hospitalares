@@ -1,30 +1,41 @@
 
 <h1 align="center">Clusterização de Glosas Hospitalares <br /> </h1>
 
-1.0 Visão Geral
+1.0 Visão geral
 
-No ramo da prestação de serviços de sáude com frequência fala-se sobre a glosa hospitalar. 
+No ramo da prestação de serviços de saúde, é comum ouvir falar sobre glosa hospitalar. As glosas correspondem a valores de faturamento que não são recebidos ou são recusados pelas operadoras de saúde — clínicas, hospitais e laboratórios — geralmente devido a problemas de comunicação ou inconsistências nas informações fornecidas.
 
-Glosas são faturamentos não recebidos ou recusados nas organizações de saúde (clínicas, hospitais e laboratórios) por problemas de comunicação com as operadoras
+Na maioria das vezes, as glosas ocorrem quando os dados enviados pelo prestador não coincidem com os registros da operadora. Por isso, evitar glosas é fundamental para manter a eficiência na gestão financeira das instituições de saúde.
 
-Em geral, as glosas acontecem quando as informações sobre um atendimento, fornecidas pelo prestador, não batem com o registro de dados da operadora. Sendo assim, é imprescindível evitar a glosa em planos de saúde para otimizar tempo e garantir uma gestão eficiente.
+Diante da relevância desse tema, propõe-se a criação de um modelo de clusterização.
 
-Em geral, são valores sobressalentes, referentes aos atendimentos, materiais, medicamentos ou taxas cobradas pelos prestadores. 
+Clusterização é uma técnica de aprendizado de máquina que consiste em agrupar elementos com características semelhantes, sem a necessidade de rótulos pré-definidos. Essa abordagem é especialmente útil para explorar padrões e identificar grupos naturais dentro de um conjunto de dados.
 
-A falta desses pagamentos .
+Para este caso específico, o objetivo da clusterização é agrupar os casos de glosa com características semelhantes, facilitando tanto a identificação das causas quanto a priorização dos grupos com maior impacto financeiro. Dessa forma, a análise torna-se mais estratégica, permitindo ações mais direcionadas para a redução das glosas e a otimização do faturamento.
 
+2.0 Objetivos técnicos
 
-2.0 Objetivo
+Desenvolver modelos de clusterização segmentados por hospital, convênio e tipo de glosa, com o objetivo de identificar padrões e facilitar a análise das principais causas de glosas.
 
-Desenvolver um modelo de clusterização que forneça grupos de glosa semelhantes entre si por hospital, convênio e tipo de glosa. 
+Foi implementada uma estrutura em loop, capaz de gerar automaticamente diferentes clusterizações para cada combinação de hospital, operadora e tipo de glosa.
+Por exemplo:
 
-O modelo criado irá torna-se um processo automático de priorização de glosa, a ideia é criar um processo que gere grupos de glosa para cada chave de hospital, convênio e tipo de glosa de uma rede hospitalar. 
+- Para a base de dados 1, referente ao Hospital A, da Operadora B e do Tipo de Glosa C, foram identificados 3 grupos.
+
+- Já para a base de dados 2, correspondente ao Hospital E, da Operadora F e do Tipo de Glosa G, foram identificados 5 grupos.
+
+Essa rotina de criação dos modelos foi transformada em um processo automático, com a execução do script Python agendada por meio do Agendador de Tarefas do Windows, garantindo a atualização periódica dos dados sem necessidade de intervenção manual.
+
+Além disso, um painel no Power BI será alimentado com os resultados dessas análises, permitindo o acompanhamento semanal da evolução das glosas, com foco na tomada de decisão mais rápida e estratégica por parte das áreas responsáveis.
 
 3.0 Tecnologias Utilizadas
 
 - Python: Processamento de dados
 - Agendador de tarefas do Windows: Automação
 - Power BI: Visualização e monitoramento
+
+![ChatGPT Image 16 de abr  de 2025, 10_58_43](https://github.com/user-attachments/assets/228358a4-6646-4d43-a229-6a1d745bbdd0)
+
   
 4.0 Desenvolvimento 
 
