@@ -114,8 +114,9 @@ Funcionalidades principais:
 - Construção dos visuais.
 - Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentados os agrupamentos criados.
 
-  <img width="574" alt="{74F46C7B-9E66-4B4D-BC4A-18FF0D01F38E}" src="https://github.com/user-attachments/assets/16858792-fb01-4093-8a11-da8a665fe4a2" />
+<img width="578" alt="{2EBF3867-D52B-4331-B744-EFB1714929A6}" src="https://github.com/user-attachments/assets/dd001b7c-e420-44a4-a9a2-9bbc3aef63c2" />
 
-  <img width="578" alt="{567727C2-945F-4274-B6AD-FC88F5DA7583}" src="https://github.com/user-attachments/assets/85ff85ce-0033-46a4-a1e4-6bbe176ab1a3" />
+<img width="581" alt="{F48372F0-D613-40CD-A70F-0104656E920F}" src="https://github.com/user-attachments/assets/963b019b-fe6c-47a2-bb56-557d6afb8fee" />
+
 
 ## **5.0 Resultados**
