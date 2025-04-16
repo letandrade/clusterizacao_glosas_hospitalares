@@ -32,6 +32,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 ## **3.0 Ferramentas utilizadas**
 
+- SQL: Utilizado para construção da bases de dados.
+
 - Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa.
 
 - Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
@@ -51,7 +53,7 @@ A base de dados foi extraída de um banco de dados, esse script faz toda a sele�
 
 A query construída foi chamada através da conexão com o banco de dados Oracle constrída através da biblioteca cx_oracle.
 
-### **4.2 Módulo de Clusterização para Análise de Glosas Hospitalares (Oracle SQL + Python)**
+### **4.2 Módulo de Clusterização para Análise de Glosas Hospitalares**
 
 
 Este módulo python (modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
