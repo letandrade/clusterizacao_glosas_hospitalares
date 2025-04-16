@@ -30,9 +30,11 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 3.0 Tecnologias Utilizadas
 
-- Python: Processamento de dados
-- Agendador de tarefas do Windows: Automação
-- Power BI: Visualização e monitoramento
+- Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa.
+
+- Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
+
+- Power BI: Ferramenta utilizada para a visualização e monitoramento dos resultados. Os dados processados são integrados ao painel para acompanhamento semanal das glosas, facilitando a análise e a tomada de decisões.
   
 ![pipeline](https://github.com/user-attachments/assets/4ff29d87-8d82-4e6a-8567-2797690b8d82)
 
