@@ -33,8 +33,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 - Python: Processamento de dados
 - Agendador de tarefas do Windows: Automação
 - Power BI: Visualização e monitoramento
-
-![ChatGPT Image 16 de abr  de 2025, 10_58_43](https://github.com/user-attachments/assets/228358a4-6646-4d43-a229-6a1d745bbdd0)
+  
+![pipeline](https://github.com/user-attachments/assets/4ff29d87-8d82-4e6a-8567-2797690b8d82)
 
   
 4.0 Desenvolvimento 
