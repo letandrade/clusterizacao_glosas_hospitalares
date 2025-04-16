@@ -42,6 +42,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
   
 ![pipeline](https://github.com/user-attachments/assets/4ff29d87-8d82-4e6a-8567-2797690b8d82)
 
+[Logo Oracle SQL] + [Logo Python] + [Logo Windows] + [Logo Power BI]
+
   
 ## **4.0 Desenvolvimento**
 
