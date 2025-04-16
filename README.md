@@ -53,7 +53,7 @@ A query construída foi chamada através da conexão com o banco de dados Oracle
 
 4.2 Módulo de Clusterização para Análise de Glosas Hospitalares (Oracle SQL + Python)
 
-Este módulo Python ((modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
+Este módulo python (modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
 
 Funcionalidades principais:
 
@@ -65,17 +65,26 @@ Funcionalidades principais:
 
 Essa solução permite identificar padrões e anomalias no comportamento das glosas, sendo útil para auditoria médica, análises operacionais e estratégias de redução de perdas.
 
-4.3 
+4.3 Módulo de execução de funções
 
-Este módulo Python (modulo_clusterizacao_hospital_recente_loop.py) automatiza a aplicação de técnicas de clusterização disponibilixadas no módulo anterior. O foco É identificar padrões por hospital, convênio e tipo de glosa (Codificação ou Precificação). 
+Este módulo python (modulo_clusterizacao_hospital_recente_loop.py) executa de forma automatizada as funções do módulo anterior (modulo_clusterizacao_hospital_recente.py) para cada combinação válida de hospital, convênio e tipo de glosa, a fim de gerar uma base consolidada de clusters.
 
 Funcionalidades principais:
 
-- Leitura de dados específicos por hospital, convênio e tipo de glosa, a partir de fontes validadas.
-- Verificação de combinações válidas com base em um dataset pré-definido.
+- Leitura de dados específicos por hospital, convênio e tipo de glosa.
+  
+- Verificação das combinações válidas com base nos hospitais, convênios e tipo de glosa presentes na base de dados. 
+  
 - Execução de clusterização com KMeans, utilizando padronização e métricas como silhouette score para qualidade dos clusters.
+  
 - Empilhamento dos resultados em um único DataFrame (base_cluster_df) para análise consolidada.
+  
 - Exportação automatizada da base final para um arquivo CSV centralizado em um diretório compartilhado.
+
+4.4 Agendamento do script de loop no windowns 
+
+4.5 Dashboard de Clusterização 
+
 
 **5.0 Deploy**
 
