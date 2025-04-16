@@ -13,6 +13,8 @@ Clusterização é uma técnica de aprendizado de máquina que consiste em agrup
 
 Para este caso específico, o objetivo da clusterização é agrupar os casos de glosa com características semelhantes, facilitando tanto a identificação das causas quanto a priorização dos grupos com maior impacto financeiro. Dessa forma, a análise torna-se mais estratégica, permitindo ações mais direcionadas para a redução das glosas e a otimização do faturamento.
 
+Por questões de confidencialidade e segurança da informação, o nome da rede de saúde e os valores financeiros envolvidos neste projeto foram anonimizados.
+
 **2.0 Objetivos técnicos**
 
 Desenvolver modelos de clusterização segmentados por hospital, convênio e tipo de glosa, com o objetivo de identificar padrões e facilitar a análise das principais causas de glosas.
