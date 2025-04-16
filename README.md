@@ -84,15 +84,21 @@ Funcionalidades principais:
 
 **4.4 Agendamento do script de loop no Windows**
 
-- Criação um arquivo .bat responsável por executar o script Python de clusterização.
+- Criação um arquivo .bat (executar_cluster_apriori_recente.bat) responsável por executar o script Python de clusterização.
 
-- Organização dos arquivos necessários (módulo de clusterização, script de execução e dependências) em uma pasta dedicada dentro de um diretório de trabalho.
+- Organização dos arquivos necessários (modulo_clusterizacao_hospital_recente.py, modulo_clusterizacao_hospital_recente_loop.py, executar_cluster_apriori_recente.bat) em uma pasta dedicada dentro de um diretório de trabalho.
 
-- Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal.
+- Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal e fazer o apontamento para o arquivo .bat presente na pasta anterior. 
 
-- Ao final de cada execução, o script exporta um arquivo .csv contendo o empilhamento dos clusters gerados, armazenado no diretório especificado no código.
+- Ao final de cada execução, o script exporta um arquivo .csv (base_cluster_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
+
+- O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
 
 **4.5 Dashboard de Clusterização**
+
+- Importação do arquivo base_cluster_por_hospital.csv no Power BI desktop.
+- Construção dos visuais.
+- Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentados os agrupamentos criados. 
 
 
 
