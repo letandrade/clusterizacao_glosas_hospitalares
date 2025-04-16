@@ -15,7 +15,7 @@ Para este caso específico, o objetivo da clusterização é agrupar os casos de
 
 Por questões de confidencialidade e segurança da informação, o nome da rede de saúde e os valores financeiros envolvidos neste projeto foram anonimizados.
 
-**2.0 Objetivos técnicos**
+## **2.0 Objetivos técnicos**
 
 Desenvolver modelos de clusterização segmentados por hospital, convênio e tipo de glosa, com o objetivo de identificar padrões e facilitar a análise das principais causas de glosas.
 
@@ -30,7 +30,7 @@ Essa rotina de criação dos modelos foi transformada em um processo automático
 
 Além disso, um painel no Power BI será alimentado com os resultados dessas análises, permitindo o acompanhamento semanal da evolução das glosas, com foco na tomada de decisão mais rápida e estratégica por parte das áreas responsáveis.
 
-**3.0 Tecnologias Utilizadas**
+## **3.0 Tecnologias Utilizadas**
 
 - Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa.
 
@@ -41,7 +41,7 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 ![pipeline](https://github.com/user-attachments/assets/4ff29d87-8d82-4e6a-8567-2797690b8d82)
 
   
-**4.0 Desenvolvimento**
+## **4.0 Desenvolvimento**
 
 Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em anexo. 
 
@@ -110,4 +110,4 @@ Funcionalidades principais:
 
 
 
-**5.0 Resultados**
+## **5.0 Resultados**
