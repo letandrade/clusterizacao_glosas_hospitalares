@@ -82,7 +82,7 @@ Funcionalidades principais:
   
 - Exportação automatizada da base final para um arquivo CSV centralizado em um diretório compartilhado.
 
-**4.4 Agendamento do script de loop no windowns**
+**4.4 Agendamento do script de loop no Windows**
 
 
 **4.5 Dashboard de Clusterização**
