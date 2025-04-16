@@ -59,9 +59,13 @@ Este módulo python (modulo_clusterizacao_hospital_recente.py) tem como objetivo
 Funcionalidades principais:
 
 - Conexão Oracle: Acesso direto ao banco de dados Oracle para execução da query.
+  
 - Consulta customizada: Extração de dados por hospital, convênio e tipo de glosa, com tratamento de nulos e cálculos de indicadores como salto de valor e índice de glosa.
+  
 - Clusterização inteligente: Aplicação do algoritmo K-Means com escolha automática do número ótimo de clusters baseado no índice de Silhouette.
+  
 - Escalabilidade: Limitação dinâmica do número de clusters com base na quantidade de amostras disponíveis.
+  
 - Exploração de variáveis relevantes: Agrupamento baseado em GLOSA_ATUAL, IND_GLOSA, SALTO_VALOR, e SALTO_INDICE.
 
 Essa solução permite identificar padrões e anomalias no comportamento das glosas, sendo útil para auditoria médica, análises operacionais e estratégias de redução de perdas.
@@ -84,6 +88,8 @@ Funcionalidades principais:
 
 **4.4 Agendamento do script de loop no Windows**
 
+Funcionalidades principais:
+
 - Criação um arquivo .bat (executar_cluster_apriori_recente.bat) responsável por executar o script Python de clusterização.
 
 - Organização dos arquivos necessários (modulo_clusterizacao_hospital_recente.py, modulo_clusterizacao_hospital_recente_loop.py, executar_cluster_apriori_recente.bat) em uma pasta dedicada dentro de um diretório de trabalho.
@@ -96,12 +102,12 @@ Funcionalidades principais:
 
 **4.5 Dashboard de Clusterização**
 
+Funcionalidades principais:
+
 - Importação do arquivo base_cluster_por_hospital.csv no Power BI desktop.
 - Construção dos visuais.
 - Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentados os agrupamentos criados. 
 
 
 
-**5.0 Deploy**
-
-**6.0 Resultados**
+**5.0 Resultados**
