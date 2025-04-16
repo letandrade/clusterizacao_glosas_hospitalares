@@ -112,10 +112,10 @@ Funcionalidades principais:
 
 - Importação do arquivo base_cluster_por_hospital.csv no Power BI desktop.
 - Construção dos visuais.
-- Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentados os agrupamentos criados. 
+- Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentados os agrupamentos criados.
 
-<img width="589" alt="{2CE8859F-CCD1-416F-B015-3B96E3B70F12}" src="https://github.com/user-attachments/assets/06173b9c-e71a-458e-99a1-1d526ce39e7f" />
+  <img width="574" alt="{74F46C7B-9E66-4B4D-BC4A-18FF0D01F38E}" src="https://github.com/user-attachments/assets/16858792-fb01-4093-8a11-da8a665fe4a2" />
 
-<img width="584" alt="{504330E0-C2C4-4EA1-AD36-885A1E7EDA33}" src="https://github.com/user-attachments/assets/61599ba0-8d81-4e2f-8e5f-d0d6dc91fff9" />
+  <img width="578" alt="{567727C2-945F-4274-B6AD-FC88F5DA7583}" src="https://github.com/user-attachments/assets/85ff85ce-0033-46a4-a1e4-6bbe176ab1a3" />
 
 ## **5.0 Resultados**
