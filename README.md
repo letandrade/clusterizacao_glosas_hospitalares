@@ -98,7 +98,7 @@ Funcionalidades principais:
 
 - Ao final de cada execução, o script exporta um arquivo .csv (base_cluster_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
 
-- O tutorial a seguir esclarece de forma detalhada a implementação. [(https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf)]
+- O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
 
 **4.5 Dashboard de Clusterização**
 
