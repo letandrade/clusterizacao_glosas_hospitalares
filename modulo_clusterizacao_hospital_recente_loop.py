@@ -7,7 +7,6 @@ import cx_Oracle
 #manipulação
 import pandas as pd
 import numpy as np
-import datetime
 seed = 100
 
 #gráficos
