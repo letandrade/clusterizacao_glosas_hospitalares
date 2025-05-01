@@ -99,7 +99,7 @@ Funcionalidades principais:
 
 <img width="497" alt="2" src="https://github.com/user-attachments/assets/cb72291a-3acd-4e0e-b3b2-6c6cdc886ed5" />
 
-- Ao final de cada execução, o script exporta um arquivo .csv (base_cluster_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
+- Ao final de cada execução, o script exporta um arquivo.csv (base_cluster_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
 
 - O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
 
@@ -117,3 +117,11 @@ Funcionalidades principais:
 
 
 ## **5.0 Resultados**
+
+Entre janeiro e abril de 2025, a ferramenta identificou X casos relevantes de glosas, cuja tratativa resultou em uma glosa evitada anualizada de X milhões.
+
+Vale destacar que a ferramenta fornece os valores mensais de glosa por caso. Após a correção da causa da glosa, a perda financeira deixa de ocorrer. Por isso, o principal indicador de desempenho é a glosa evitada — ou seja, o valor anual que seria perdido caso os problemas não fossem identificados e corrigidos.
+
+Além disso, a ferramenta foi incorporada como um processo autônomo, com atualizações semanais, garantindo agilidade e escalabilidade na detecção e prevenção de glosas ao longo do tempo.
+
+
