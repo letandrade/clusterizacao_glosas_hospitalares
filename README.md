@@ -34,7 +34,7 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 - SQL: Utilizado para construção da bases de dados.
 
-- Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa.
+- Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa. É importante dizer que foi utilizado o ambiente Anaconda. 
 
 - Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
 
@@ -117,7 +117,7 @@ Funcionalidades principais:
 
 ## **5.0 Resultados**
 
-Entre janeiro e abril de 2025, a ferramenta identificou X casos relevantes de glosas, cuja tratativa resultou em uma glosa evitada anualizada de X milhões.
+Entre janeiro e abril de 2025, a ferramenta identificou 37 casos relevantes de glosas somando aproximadamente R$5 milhões, cuja tratativa resultou em uma glosa evitada anualizada de aproximadamente R$60 milhões.
 
 Vale destacar que a ferramenta fornece os valores mensais de glosa por caso. Após a correção da causa da glosa, a perda financeira deixa de ocorrer. Por isso, o principal indicador de desempenho é a glosa evitada, ou seja, o valor anual que seria perdido caso os problemas não fossem identificados e corrigidos.
 
