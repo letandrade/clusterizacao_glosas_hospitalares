@@ -57,7 +57,7 @@ print(base_cluster_df)
 print(f'Tamanho de base_cluster: {len(base_cluster_df)}')  # Exibe a quantidade de itens empilhados
 
 # Ajustando o caminho base
-caminho_base = r"\\Fscorp05\monitoramento$\08.Desenvolvimento\03.Dashboards\Cluster_Apriori"
+caminho_base = r"\\08.Desenvolvimento\03.Dashboards\Cluster_Apriori"
 
 # Concatenando o nome do arquivo ao caminho base
 nome_do_arquivo_csv = f"{caminho_base}\\base_cluster_por_hospital.csv"
