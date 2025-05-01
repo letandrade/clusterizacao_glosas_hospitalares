@@ -120,7 +120,7 @@ Funcionalidades principais:
 
 Entre janeiro e abril de 2025, a ferramenta identificou X casos relevantes de glosas, cuja tratativa resultou em uma glosa evitada anualizada de X milhões.
 
-Vale destacar que a ferramenta fornece os valores mensais de glosa por caso. Após a correção da causa da glosa, a perda financeira deixa de ocorrer. Por isso, o principal indicador de desempenho é a glosa evitada — ou seja, o valor anual que seria perdido caso os problemas não fossem identificados e corrigidos.
+Vale destacar que a ferramenta fornece os valores mensais de glosa por caso. Após a correção da causa da glosa, a perda financeira deixa de ocorrer. Por isso, o principal indicador de desempenho é a glosa evitada, ou seja, o valor anual que seria perdido caso os problemas não fossem identificados e corrigidos.
 
 Além disso, a ferramenta foi incorporada como um processo autônomo, com atualizações semanais, garantindo agilidade e escalabilidade na detecção e prevenção de glosas ao longo do tempo.
 
