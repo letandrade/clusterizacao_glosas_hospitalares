@@ -3,13 +3,13 @@
 
 ## **1.0 Visão geral**
 
-No ramo da prestação de serviços de saúde, é comum ouvir falar sobre glosa hospitalar. As glosas correspondem a valores de faturamento que não são recebidos ou são recusados pelas operadoras de saúde — clínicas, hospitais e laboratórios — geralmente devido a problemas de comunicação ou inconsistências nas informações fornecidas.
+No ramo da prestação de serviços de saúde, é comum ouvir falar sobre glosa hospitalar. As glosas correspondem a valores de faturamento que não são recebidos ou são recusados pelas operadoras de saúde (convênios), geralmente devido a problemas de comunicação ou inconsistências nas informações fornecidas pelo prestador. 
 
 Na maioria das vezes, as glosas ocorrem quando os dados enviados pelo prestador não coincidem com os registros da operadora. Por isso, evitar glosas é fundamental para manter a eficiência na gestão financeira das instituições de saúde.
 
 Diante da relevância desse tema, propõe-se a criação de um modelo de clusterização.
 
-Clusterização é uma técnica de aprendizado de máquina que consiste em agrupar elementos com características semelhantes, sem a necessidade de rótulos pré-definidos. Essa abordagem é especialmente útil para explorar padrões e identificar grupos naturais dentro de um conjunto de dados.
+Clusterização é uma técnica de aprendizado de máquina não-supervisionado que consiste em agrupar elementos com características semelhantes, sem a necessidade de rótulos pré-definidos. Essa abordagem é especialmente útil para explorar padrões e identificar grupos naturais dentro de um conjunto de dados.
 
 Para este caso específico, o objetivo da clusterização é agrupar os casos de glosa com características semelhantes, facilitando tanto a identificação das causas quanto a priorização dos grupos com maior impacto financeiro. Dessa forma, a análise torna-se mais estratégica, permitindo ações mais direcionadas para a redução das glosas e a otimização do faturamento.
 
@@ -48,12 +48,11 @@ Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em a
 
 A base de dados foi extraída de um banco de dados, esse script faz toda a seleção de variáveis e tratamento. E entrega a base no formato de entrada do algoritmo. 
 
-A query construída foi chamada através da conexão com o banco de dados Oracle constrída através da biblioteca cx_oracle.
+A query construída foi chamada através da conexão com o banco de dados Oracle executada através da biblioteca cx_oracle.
 
 ### **4.2 Módulo de Clusterização para Análise de Glosas Hospitalares**
 
-
-Este módulo python (modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
+Este módulo python (modulo_clusterizacao_hospital_recente.py) tem como objetivo realizar análises de clusterização em dados de glosas hospitalares, extraídos diretamente de um banco de dados Oracle. Ele utiliza uma consulta SQL para coletar e tratar os dados relevantes e aplica o algoritmo de Machine Learning K-Means para agrupar padrões semelhantes de glosa.
 
 Funcionalidades principais:
 
@@ -79,11 +78,11 @@ Funcionalidades principais:
   
 - Verificação das combinações válidas com base nos hospitais, convênios e tipo de glosa presentes na base de dados. 
   
-- Execução de clusterização com KMeans, utilizando padronização e métricas como silhouette score para qualidade dos clusters.
+- Execução de clusterização com K-Means, utilizando padronização e métricas como silhouette score para qualidade dos clusters.
   
 - Empilhamento dos resultados em um único DataFrame (base_cluster_df) para análise consolidada.
   
-- Exportação automatizada da base final para um arquivo CSV centralizado em um diretório compartilhado.
+- Exportação automatizada da base final para um arquivo .csv centralizado em um diretório compartilhado.
 
 ### **4.4 Agendamento do script de loop no Windows**
 
