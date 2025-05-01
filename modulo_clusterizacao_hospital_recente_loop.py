@@ -9,16 +9,6 @@ import pandas as pd
 import numpy as np
 seed = 100
 
-#gráficos
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import plotly.express as px
-import plotly.io as pio
-import matplotlib.pyplot as plt
-#get_ipython().run_line_magic('matplotlib', 'inline')
-import seaborn as snb
-import graphviz
-
 #warnings
 import warnings
 warnings.simplefilter("ignore")
