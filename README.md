@@ -119,7 +119,7 @@ Funcionalidades principais:
 
 ## **5.0 Resultados**
 
-Entre janeiro e abril de 2025, a ferramenta clusterização em conjunto com a ferramenta de regras de associação(https://github.com/letandrade/regras_de_associacao_glosas_hospitalares ) identificaram 37 casos relevantes de glosas somando aproximadamente R$5 milhões, cuja tratativa resultou em uma glosa evitada anualizada de aproximadamente R$60 milhões.
+Entre janeiro e abril de 2025, a ferramenta clusterização em conjunto com a ferramenta de [regras de associação](https://github.com/letandrade/regras_de_associacao_glosas_hospitalares) identificaram 37 casos relevantes de glosas somando aproximadamente R$5 milhões, cuja tratativa resultou em uma glosa evitada anualizada de aproximadamente R$60 milhões.
 
 Vale destacar que a ferramenta fornece os valores mensais de glosa por caso. Após a correção da causa da glosa, a perda financeira deixa de ocorrer. Por isso, o principal indicador de desempenho é a glosa evitada, ou seja, o valor anual que seria perdido caso os problemas não fossem identificados e corrigidos.
 
