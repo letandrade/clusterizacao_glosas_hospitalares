@@ -32,6 +32,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 ## **3.0 Ferramentas utilizadas**
 
+![{1743A47F-6D12-4614-BA3F-4EF85A242CC9}](https://github.com/user-attachments/assets/90972919-4370-48c1-8b54-51c923b1976a)
+
 - SQL: Utilizado para construção da bases de dados.
 
 - Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos de clusterização e tratamento das bases segmentadas por hospital, operadora e tipo de glosa. É importante dizer que foi utilizado o ambiente Anaconda. 
